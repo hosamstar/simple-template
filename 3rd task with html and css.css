@@ -1,0 +1,209 @@
+
+
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+}
+
+
+.by{
+    margin-top: 0px;
+    text-align: center;
+    color:rgba(207, 191, 191, 0.993);
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+.all-middle-content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pic02{
+    width: 1000px;
+}
+
+.Fringilla{
+    background-color: aliceblue;
+    position: relative;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+   
+    
+}
+.hr1{
+    width: 25%;
+}
+
+
+.Fringilla-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.first-p{
+    background-color:rgba(240, 255, 255, 0.897) ;
+    height: 250px;
+    padding: 70px;  
+    display: flex;
+    justify-content: center;  
+}
+
+.first-black-div{
+    background-color: rgb(24, 21, 21);
+    height: 700px;
+    padding: 80px;
+    
+}
+
+.Vestibulum-div{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.all-middle-content .first-black-div .Vestibulum-div h2{
+    color: rgba(250, 250, 250, 0.925);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all-middle-content .first-black-div .Vestibulum-div hr{
+    width: 10%;
+    color: rgb(102, 102, 102);
+}
+
+.all-middle-content .first-black-div .Vestibulum-div p{
+    color: rgb(139, 139, 139);
+    text-align: center;
+
+}
+.four-pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.four-pictures img{
+    width: 418px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.last-middle-section{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic06, .pic07, .pic08 {
+    width: 500px;
+}
+
+.second-white-div, .third-white-div{
+    background-color: #fff;
+    padding: 10%;
+    
+}
+
+.second-black-div{
+    background-color: rgb(24, 22, 22);
+}
+
+.all-middle-content .last-middle-section .second-black-div h2{
+    color: rgb(250, 249, 248);
+}
+
+.all-middle-content .last-middle-section .second-black-div p{
+    color: rgba(247, 247, 247, 0.514);
+
+}
+.second-white-div, .second-black-div, .third-white-div{
+    width: 360px;
+    padding: 7%;
+}
+.social-logo{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.twitter, .facebook, .gmail, .instegram{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.copyright{
+    color: #bbb;
+    font-size: 0.9rem;
+    margin: 0 0 2rem 0;
+    padding: 0 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+
+}
+
+p{
+    margin-top: 0px;
+    text-align: center;
+    color:rgba(207, 191, 191, 0.993);
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bigDiv{
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+} */
